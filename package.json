@@ -16,7 +16,10 @@
     "pack": "npm run pack:main && npm run pack:renderer",
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
-    "postinstall": "npm run lint:fix"
+    "postinstall": "npm run lint:fix",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "build": {
     "productName": "finance-front",
@@ -80,7 +83,6 @@
     "del": "^6.0.0",
     "devtron": "^1.4.0",
     "electron": "^11.1.1",
-    "electron-builder": "^22.9.1",
     "electron-debug": "^3.2.0",
     "electron-devtools-installer": "^3.1.1",
     "eslint": "^7.16.0",

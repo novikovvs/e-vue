@@ -26,6 +26,7 @@ html {
 }
 
 .app__router {
+  height: 85vmin;
   background-color: white;
   margin: 2% 5% 2% 5%;
   padding: 10px;

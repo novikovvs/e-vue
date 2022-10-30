@@ -3,20 +3,9 @@
     <main>
       <div class="left-side">
         <span class="title">
-           Добро пожаловать в FinanceApp!
+           Добро пожаловать в E-Vue!
         </span>
         <system-information></system-information>
-      </div>
-
-      <div class="right-side">
-        <div class="doc">
-          <div class="title">Приступая к работе</div>
-          <p>
-            FinanceApp - это приложения для удобной работы с историей операций (ИО) от Тинькофф.
-            <br>
-            Для старта перейдите на вкладку "Dashboard" и загрузите вашу ИО.
-          </p>
-        </div>
       </div>
     </main>
   </div>

@@ -1,16 +1,16 @@
 export const home = {
     path: '/',
     name: 'Home',
-    component: require('../../components/LandingPage').default
+    component: require('../../components/LandingPage.vue').default
 }
 
-export const dashboard = {
-    path: '/dashboard',
-    name: 'Dashboard',
-    component: require('../../components/FinancePage.vue').default
+export const gitlab = {
+    path: '/git',
+    name: 'Github',
+    component: require('../../components/GithubPage.vue').default
 }
 
 export const routes = [
     home,
-    dashboard
+    gitlab
 ]

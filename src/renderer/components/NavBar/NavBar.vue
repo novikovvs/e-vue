@@ -4,7 +4,7 @@
         dense
         elevation="4"
     >
-      <v-toolbar-title>Finance</v-toolbar-title>
+      <v-toolbar-title>E-Vue</v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="navbar__container">
         <v-btn v-for="route in paths" @click="open(route.path)" outlined color="indigo">
