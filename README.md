@@ -1,6 +1,6 @@
-# finance-front
+# e-vue
 
-> An electron-vue project
+> An electron-vue template
 
 #### Build Setup
 
