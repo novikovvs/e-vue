@@ -32,7 +32,7 @@ function createWindow () {
             enableRemoteModule: true,
             webviewTag: true
         },
-        icon: '../renderer/assets/app_icon.svg'
+        icon: '../renderer/assets/icons/logo.png'
     })
 
     mainWindow.loadURL(winURL)
