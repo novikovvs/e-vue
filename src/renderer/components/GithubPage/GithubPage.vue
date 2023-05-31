@@ -4,12 +4,4 @@
 </div>
 </template>
 
-<script>
-  export default {
-    name: 'GitlabPage'
-  }
-</script>
-
-<style scoped>
-
-</style>
+<script src="./GithubPage.js" />
